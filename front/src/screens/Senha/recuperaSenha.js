@@ -1,9 +1,10 @@
-import React from 'react';
+
+import React, { useState, useEffect } from 'react';
 import styleSenha from './styleSenha';
 import { View, Text, TextInput, TouchableOpacity, Image} from 'react-native'
 import { Ionicons} from '@expo/vector-icons';
 import { FiraSans_500Medium, useFonts } from '@expo-google-fonts/fira-sans';
-import cadeado from '/home/matheus/Área de Trabalho/mobile/front/assets/cadeado.png'
+import cadeado from 'C:/Users/usuario/Documents/GitHub/smartGrandpa/front/assets/cadeado.png'
 import * as Animatable from 'react-native-animatable';
 
 export function SenhaSreen({ navigation }){

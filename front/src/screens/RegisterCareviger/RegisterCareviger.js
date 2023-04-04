@@ -1,12 +1,13 @@
 import React from 'react';
+
 import styleCarevigerRegister from './styleRegisterCareviger.js';
 import { View, Text, TextInput, TouchableOpacity,Image} from 'react-native'
 import { Ionicons} from '@expo/vector-icons';
 import { FiraSans_500Medium, useFonts } from '@expo-google-fonts/fira-sans';
-import loginFacebook from '/home/matheus/Área de Trabalho/mobile/front/assets/facebook.png';
-import loginGoogle from '/home/matheus/Área de Trabalho/mobile/front/assets/google.png';
+import loginFacebook from 'C:/Users/usuario/Documents/GitHub/smartGrandpa/front/assets/facebook.png';
+import loginGoogle from 'C:/Users/usuario/Documents/GitHub/smartGrandpa/front/assets/google.png';
 import axios from 'axios';
-import api from '/home/matheus/Área de Trabalho/mobile/front/src/api/index.js'
+import api from 'C:/Users/usuario/Documents/GitHub/smartGrandpa/front/src/api/index.js'
 //const postLogin = data => axios.post("https://localhost:8080/autenticacaoCuidador/registrar", data)
 
 //.then(() => {

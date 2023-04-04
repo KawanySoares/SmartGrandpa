@@ -46,6 +46,28 @@ const styleSearch = StyleSheet.create({
     fontSize: 20,
     color: '#333333',
   },
+  filtro: {
+    backgroundColor: '#fff',
+    alignSelf: 'center',
+    top: 10,
+    width: 245,
+    right: 5,
+    borderRadius: 8,
+    paddingHorizontal: 16,
+    paddingVertical: 12,
+    fontSize: 16,
+    color: '#000',
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 1,
+    },
+    shadowOpacity: 0.2,
+    shadowRadius: 1.41,
+
+    elevation: 2,
+  },
+
   jobsContainer: {
     paddingBottom: 20,
     top: 20,
@@ -78,49 +100,49 @@ const styleSearch = StyleSheet.create({
     resizeMode: 'contain',
 
 	},
-	jobDetailsContainer: {
-	flex: 1,
-	justifyContent: 'center',
-	},
-	jobTitle: {
-	fontSize: 16,
-	fontWeight: 'bold',
-	marginBottom: 4,
-	color: '#333',
-	},
-	company: {
-	fontSize: 14,
-	color: '#666',
-	marginBottom: 4,
-	},
-	location: {
-	fontSize: 14,
-	color: '#666',
-	marginBottom: 4,
-	},
-	applyButtonContainer: {
-	width: 80,
-	height: 32,
-	borderRadius: 16,
-	backgroundColor: '#0077b5',
-	alignItems: 'center',
-	justifyContent: 'center',
-	},
-	applyButtonText: {
-	color: '#fff',
-	fontSize: 14,
-	fontWeight: 'bold',
-	},
-	noJobContainer: {
-	flex: 1,
-	justifyContent: 'center',
-	alignItems: 'center',
-	},
-	noJobText: {
-	fontSize: 20,
-	fontWeight: 'bold',
-	color: '#333',
-	},
+    jobDetailsContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    },
+    jobTitle: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    marginBottom: 4,
+    color: '#333',
+    },
+    company: {
+    fontSize: 14,
+    color: '#666',
+    marginBottom: 4,
+    },
+    location: {
+    fontSize: 14,
+    color: '#666',
+    marginBottom: 4,
+    },
+    applyButtonContainer: {
+    width: 80,
+    height: 32,
+    borderRadius: 16,
+    backgroundColor: '#0077b5',
+    alignItems: 'center',
+    justifyContent: 'center',
+    },
+    applyButtonText: {
+    color: '#fff',
+    fontSize: 14,
+    fontWeight: 'bold',
+    },
+    noJobContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    },
+    noJobText: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    color: '#333',
+    },
 
 
 })
